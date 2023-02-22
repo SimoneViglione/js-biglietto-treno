@@ -7,7 +7,7 @@ console.log(distanzaViaggio);
 const prezzoBase = 0.21
 
 let prezzoBiglietto = distanzaViaggio * prezzoBase;
-console.log(prezzoBiglietto);
+console.log(prezzoBiglietto.toFixed);
 
 if (anniPasseggero < 18) {
     prezzoBiglietto = prezzoBiglietto * 20 / 100;
@@ -17,4 +17,8 @@ if (anniPasseggero < 18) {
 
 console.log(prezzoBiglietto.toFixed(2))
 
-document.getElementById('prezzo_biglietto').innerHTML = prezzoBiglietto;
+document.getElementById('prezzo_biglietto').innerHTML = prezzoBiglietto.toFixed(2);
+
+document.getElementById('anni').innerHTML = anniPasseggero;
+
+document.getElementById('km').innerHTML = distanzaViaggio;
