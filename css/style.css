@@ -5,16 +5,3 @@
     font-family: sans-serif;
 }
 
-.d-flex {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-header {
-    height: 100px;
-}
-
-main {
-    padding-top: 1rem;
-    
-}
