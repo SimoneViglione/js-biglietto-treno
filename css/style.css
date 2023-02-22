@@ -2,6 +2,39 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: 'Gloock', serif;
 }
 
+.container {
+    border: solid rgb(0, 0, 0) 50px;
+    height: 100vh;
+    font-size: 2rem;
+}
+
+.inner-container {
+   margin-top: 1rem;
+   margin-left: 1rem; 
+}
+
+.ticket {
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.j-space-between {
+    justify-content: space-between;
+}
+
+.mb-1 {
+    margin-bottom: 1rem;
+}
+
+.img-bg img{
+    margin-top: 250px;
+    margin-left: 300px;
+    width: 400px;
+}
