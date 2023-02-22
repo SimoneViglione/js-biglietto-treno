@@ -10,9 +10,9 @@ let prezzoBiglietto = distanzaViaggio * prezzoBase;
 console.log(prezzoBiglietto);
 
 if (anniPasseggero < 18) {
-    prezzoBiglietto = prezzoBiglietto * 20 / 100;
+    prezzoBiglietto = prezzoBiglietto - prezzoBiglietto * 20 / 100;
 } else if (anniPasseggero > 65) {
-    prezzoBiglietto = prezzoBiglietto * 40 / 100;
+    prezzoBiglietto = prezzoBiglietto - prezzoBiglietto * 40 / 100;
 }
 
 console.log(prezzoBiglietto.toFixed(2))
