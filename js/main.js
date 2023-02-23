@@ -1,7 +1,7 @@
-const anniPasseggero = prompt('Inserisci la tua età');
+const anniPasseggero = parseInt(prompt('Inserisci la tua età'));
 console.log(anniPasseggero);
 
-const distanzaViaggio = prompt('Inserisci i km da percorrere');
+const distanzaViaggio = parseInt(prompt('Inserisci i km da percorrere'));
 console.log(distanzaViaggio);
 
 const prezzoBase = 0.21
